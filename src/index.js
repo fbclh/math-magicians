@@ -1,6 +1,3 @@
-/* eslint-disable semi */
-/* eslint-disable eol-last */
-/* eslint-disable comma-dangle */
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'

@@ -1,4 +1,3 @@
-/* eslint-disable semi */
 import { Component } from 'react'
 import Calculator from './components/Calculator'
 import './styles/Calculator.css'

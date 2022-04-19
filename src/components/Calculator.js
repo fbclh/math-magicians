@@ -1,4 +1,3 @@
-/* eslint-disable semi */
 import { Component } from 'react'
 
 class Calculator extends Component {
