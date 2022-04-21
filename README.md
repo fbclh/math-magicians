@@ -2,19 +2,30 @@
 
 ## Live Demo
 
-
 ## Built With
-
 
 ## Getting Started
 
+Clone
+
+```sh
+   git clone git@github.com:fbclh/euro-cuisine.git
+```
+
+Run
+
+```sh
+   cd math-magicians
+   npm install
+   npm start
+```
 
 ## Authors
+
 ### Fabio Coelho
 
 - GitHub: [github.com/fbclh](https://github.com/fbclh)
 - LinkedIn: [linkedin.com/in/fbclh](https://www.linkedin.com/in/fbclh)
-
 
 ## Contributing
 
