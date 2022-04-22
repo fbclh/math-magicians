@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import Calculator from './components/Calculator';
+import { Calculator } from './components/Calculator';
 import './styles/Calculator.css';
 import './styles/index.css';
 
