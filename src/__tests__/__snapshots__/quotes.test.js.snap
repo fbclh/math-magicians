@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check if Quotes page renders correctly 1`] = `
+<div
+  className="quotes"
+>
+  <p
+    className="quote-p"
+  >
+    If I were again beginning my studies, I would follow the advice of Plato and start with mathematics. - Galileo Galilei
+  </p>
+</div>
+`;
