@@ -1,5 +1,5 @@
 /* eslint-disable react/destructuring-assignment */
-import operate from './Operate';
+import Operate from './Operate';
 
 function isNumber(item) {
   return !!item.match(/[0-9]+/);
@@ -69,7 +69,7 @@ export default function Calculate(obj, buttonName) {
   if (buttonName === '=') {
     if (obj.next && obj.operation) {
       return {
-        total: operate(obj.total, obj.next, obj.operation),
+        total: Operate(obj.total, obj.next, obj.operation),
         next: null,
         operation: null,
       };
@@ -112,7 +112,7 @@ export default function Calculate(obj, buttonName) {
     }
 
     return {
-      total: operate(obj.total, obj.next, obj.operation),
+      total: Operate(obj.total, obj.next, obj.operation),
       next: null,
       operation: buttonName,
     };

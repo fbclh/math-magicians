@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import calculate from '../logic/Calculate';
+import Calculate from '../logic/Calculate';
 
 const Calculator = () => {
   const initialState = {
@@ -12,7 +12,7 @@ const Calculator = () => {
 
   const handleClick = (event) => {
     const button = event.target.innerText;
-    const answer = calculate(result, button);
+    const answer = Calculate(result, button);
     setResult(answer);
   };
 
