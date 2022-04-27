@@ -20,4 +20,14 @@ describe('Check the Operate results are correct', () => {
     const result = Operate(obj.numberOne, obj.numberTwo, obj.operation);
     expect(result).toBe('2');
   });
+
+  test('10 * 3 = 30', () => {
+    const obj = {
+      numberOne: 10,
+      numberTwo: 3,
+      operation: 'x',
+    };
+    const result = Operate(obj.numberOne, obj.numberTwo, obj.operation);
+    expect(result).toBe('30');
+  });
 });
