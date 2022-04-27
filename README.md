@@ -7,7 +7,7 @@ Math magicians is a website for all fans of mathematics. It is a Single Page App
 [math-magicians-fbclh.netlify.app](https://math-magicians-fbclh.netlify.app/)
 
 ## Built With
-- Create React App, Jest and Testing Library
+- Create React App | React Router | Jest | Testing Library
 
 ## Getting Started
 
