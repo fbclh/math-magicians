@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body {
+  margin: 0;
+  padding: 0 7rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Rubik', sans-serif;
+}
+
+/* Home */
+.navbar {
+  align-items: baseline;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+.header {
+  width: fit-content;
+  margin: 0;
+  font-size: 2.5rem;
+  text-align: start;
+}
+
+.ul-links {
+  justify-content: center;
+  list-style: none;
+}
+
+.li-links {
+  padding: 0 20px;
+  color: darkblue;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.li-links:first-child {
+  padding-left: 0;
+}
+
+.li-links:last-child {
+  padding-right: 0;
+}
+
+.links {
+  text-decoration: none;
+}
+
+.welcome,
+.text-p {
+  text-align: start;
+}
+
+.welcome {
+  width: fit-content;
+  margin: 3rem 0px 5rem 0px;
+}
+
+.text-p {
+  margin: 5vh 0px 0px 0px;
+  font-size: larger;
+  font-weight: bold;
+  text-align: start;
+}
+
+/* Calculator */
+.container,
+.calculator,
+.result,
+.row,
+.number,
+.symbol,
+.special,
+.navbar,
+.ul-links {
+  display: flex;
+}
+
+.container {
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  padding-right: 0;
+  padding-left: 0;
+  font-size: large;
+}
+
+.text {
+  flex: 1;
+}
+
+.calculator {
+  flex-direction: column;
+  align-self: baseline;
+  padding: 20px;
+  padding-right: 0;
+  text-align: end;
+  cursor: pointer;
+}
+
+.display {
+  align-items: baseline;
+  justify-content: flex-end;
+  justify-self: flex-end;
+  height: 30px;
+  padding: 10px;
+  padding-top: 15px;
+  background-color: hsl(236, 7%, 55%);
+  color: hsl(0, 0%, 100%);
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.number,
+.special {
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid #d1d1d1;
+  background-color: #e0e0e0;
+}
+
+.symbol {
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid #d1d1d1;
+  background-color: #f5913e;
+}
+
+.number {
+  width: 70px;
+}
+
+.special {
+  width: 100%;
+}
+
+/* Quote */
+.quote-p {
+  margin: 13.75rem auto;
+  font-size: 1.5rem;
+  text-align: center;
+}
