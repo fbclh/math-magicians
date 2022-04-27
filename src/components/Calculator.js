@@ -1,8 +1,7 @@
-/* eslint-disable import/prefer-default-export */
 import { useState } from 'react';
 import calculate from '../logic/Calculate';
 
-export const Calculator = () => {
+const Calculator = () => {
   const initialState = {
     total: null,
     next: null,
@@ -21,6 +20,7 @@ export const Calculator = () => {
 
   return (
     <div className="container">
+      <h2 className="text">Lets do some math!</h2>
       <div className="calculator">
         <div className="display">
           {total}
@@ -218,3 +218,5 @@ export const Calculator = () => {
     </div>
   );
 };
+
+export default Calculator;
