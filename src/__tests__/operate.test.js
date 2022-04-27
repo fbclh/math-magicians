@@ -30,4 +30,14 @@ describe('Check the Operate results are correct', () => {
     const result = Operate(obj.numberOne, obj.numberTwo, obj.operation);
     expect(result).toBe('30');
   });
+
+  test('20 / 2 = 10', () => {
+    const obj = {
+      numberOne: 20,
+      numberTwo: 2,
+      operation: '÷',
+    };
+    const result = Operate(obj.numberOne, obj.numberTwo, obj.operation);
+    expect(result).toBe('10');
+  });
 });
