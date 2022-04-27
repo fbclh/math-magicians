@@ -14,7 +14,7 @@ Math magicians is a website for all fans of mathematics. It is a Single Page App
 Clone
 
 ```sh
-   git clone git@github.com:fbclh/euro-cuisine.git
+   git clone git@github.com:fbclh/math-magicians.git
 ```
 
 Run
