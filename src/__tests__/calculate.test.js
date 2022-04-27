@@ -20,4 +20,14 @@ describe('Test Calculate function with calculations to check the results are cor
     const result = Calculate(object, '=');
     expect(result.total).toBe('7');
   });
+
+  test('10 * 3 = 10', () => {
+    const object = {
+      total: 10,
+      next: 3,
+      operation: 'x',
+    };
+    const result = Calculate(object, '=');
+    expect(result.total).toBe('30');
+  });
 });
