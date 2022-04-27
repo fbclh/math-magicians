@@ -1,8 +1,8 @@
 const Quotes = () => (
   <div className="quotes">
     <p className="quote-p">
-      Logic and mathematics are nothing but specialized linguistic structures.
-      - Jean Piaget
+      If I were again beginning my studies, I would follow the
+      advice of Plato and start with mathematics. - Galileo Galilei
     </p>
   </div>
 );
